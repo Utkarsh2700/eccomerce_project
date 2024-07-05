@@ -271,7 +271,7 @@ const CarouselSection = ({ products, title, heading, itemLimit, delay }) => {
                 delay: delay,
               }),
             ]}
-            className="w-5/6 ml-12"
+            className="w-5/6 sm:ml-12"
           >
             <CarouselContent>
               {products?.slice(0, itemLimit).map((product) => (

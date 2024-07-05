@@ -3,7 +3,7 @@ import CarouselSection from "../carousel/CarouselSection";
 
 const StockCarousel = ({ products }) => {
   return (
-    <div className="itemsContainer">
+    <div className="itemsContainer p-8">
       {/* {products.map((product) => ( */}
       <CarouselSection
         products={products}
